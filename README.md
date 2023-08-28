@@ -1,1 +1,1 @@
-# AlgoritmoLamport - SD -II.
+# AlgoritmoLamport - SD - II.
