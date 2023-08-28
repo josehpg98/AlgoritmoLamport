@@ -1,1 +1,1 @@
-# AlgoritmoLamport
+# AlgoritmoLamport -SD -II.
