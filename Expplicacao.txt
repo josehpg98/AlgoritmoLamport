@@ -1,43 +1,41 @@
-Claro, vou explicar como o algoritmo funciona passo a passo:
 
 Inicialização:
 
 O programa começa solicitando ao usuário que insira o número de processos desejados.
 Criação da Matriz de Processos:
-
 A função criaMatriz é utilizada para criar uma matriz pN que armazenará os valores dos relógios lógicos dos processos. Cada coluna representa um processo e cada linha representa um tempo.
+
 Definição das Frequências dos Processos:
-
 A função contadorFrequenciaProcessos gera aleatoriamente as frequências dos processos e preenche a matriz pN com os valores de relógio lógico calculados com base nas frequências.
+
 Loop Principal:
-
 O programa entra em um loop principal onde os eventos são processados e a matriz de processos é atualizada.
+
 Mostrar Matriz de Processos:
-
 A função mostrarMatrizProcessos é usada para exibir a matriz de processos, mostrando o valor de relógio lógico para cada processo em diferentes tempos.
-Novo Evento:
 
+Novo Evento:
 O programa exibe a mensagem "* Novo evento *" e solicita informações sobre o evento a ser registrado:
 Processo de origem
 Tempo de origem
 Processo de destino
 Tempo de destino
+
 Validação de Dados:
-
 O programa verifica se os dados inseridos são válidos, garantindo que o tempo de origem e de destino estejam dentro dos limites e que estejam alinhados com as frequências dos processos.
+
 Ajuste do Relógio de Destino:
-
 Se o tempo de origem for maior ou igual ao tempo de destino, é necessário ajustar o relógio lógico do processo de destino. Isso é feito pela função ajustaContadorProcesso.
+
 Atualização da Matriz de Eventos:
-
 As informações do evento são armazenadas em um vetor de vetores chamado eventos, que contém informações sobre o processo de origem, tempo de origem, processo de destino, tempo de destino e o novo tempo de destino (após o ajuste).
+
 Mostrar Último Evento:
-
 A função mostrarUltimoEvento exibe informações sobre o último evento registrado, incluindo os detalhes dos tempos de origem e destino, bem como se ocorreu um ajuste nos tempos.
+
 Mostrar Matriz de Processos Após o Evento:
-
 A matriz de processos é exibida novamente após cada evento para mostrar como os relógios lógicos foram atualizados.
-Finalização do Programa:
 
+Finalização do Programa:
 O programa pergunta se o usuário deseja sair. Se a resposta for "S" ou "s", o loop principal é interrompido e o programa é encerrado.
 Em resumo, o algoritmo simula o funcionamento de relógios lógicos de Lamport em um sistema distribuído com múltiplos processos. Ele registra eventos, ajusta os tempos de destino quando necessário e mostra as atualizações na matriz de processos a cada evento. Isso permite que você visualize como os relógios lógicos se comportam em um ambiente distribuído.
